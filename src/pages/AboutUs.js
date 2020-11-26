@@ -20,8 +20,7 @@ const styles = {
     margin: "1.25rem"
   },
   textStyle: {
-    display: "block",
-    justifyContent: "flex-end"
+    fontFamily: "nunito"
   },
   footerStyle: {
     color: "#38b09a"
@@ -31,11 +30,18 @@ const styles = {
     height: "100%",
     objectFit: "cover"
   },
+  introDivStyle: {
+    display: "flex",
+    justifyContent: "Center"
+  },
   pStyle: {
     color: "white",
     display: "flex",
+    flexWrap: "wrap",
     justifyContent: "center",
-    fontSize: "3em"
+    fontSize: "3em",
+    fontFamily: "nunito",
+    fontWeight: "bold"
   },
   p1Style: {
     color: "white",
@@ -52,11 +58,9 @@ const styles = {
     animationPlayState: "running",
     animationName: "tracking-in-expand"
   },
-  p2Style: {
-
-  },
   homeImage: {
     display: "flex",
+    flexWrap: "wrap",
     justifyContent: "center",
     alignItems: "center",
     background: "url('https://www.vasa.org.uk/site-content/uploads/2018/07/web-in-development.jpg')no-repeat center",
@@ -83,12 +87,17 @@ function AboutUs() {
     <div>
       <section style={styles.homeImage}>
         <div>
-          <p style={styles.p1Style}>MATTHEW <span style={{ color: "#38b09a", marginLeft: "1rem" }}> ROGERS</span></p>
-          <p style={styles.pStyle}><span style={{ color: "#38b09a", marginRight: "1rem" }}>Full Stack</span> Web Developer</p>
+          <p style={styles.pStyle}>MATTHEW
+            <span style={{ color: "#38b09a", marginLeft: "1rem" }}> ROGERS</span>
+          </p>
+          <p style={styles.pStyle}>
+            <span style={{ color: "#38b09a", marginRight: "1rem" }}>FULL STACK</span>
+             DEVELOPER
+          </p>
         </div>
       </section >
 
-      <h2>ABOUT US</h2>
+      <h2 style={{fontFamily: 'nunito', fontWeight: "bold"}}>About Us</h2>
       <Row className="container">
         <Col
           className="black-text"
@@ -101,7 +110,7 @@ function AboutUs() {
         </Col>
         <Col
           className="black-text"
-
+          style={styles.textStyle}
           s={12}
           l={6}
         >
@@ -131,7 +140,7 @@ function AboutUs() {
       </Row>
 
       <section className="container" style={{ marginBottom: "5rem" }}>
-        <h2>SKILLS</h2>
+        <h2>Skills</h2>
         <Row style={styles.skillRowStyle}>
           <Col className="skills-container"
             style={styles.skillColStyle}

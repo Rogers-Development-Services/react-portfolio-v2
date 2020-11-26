@@ -13,7 +13,7 @@ const styles = {
 
 function Portfolio() {
   return (
-    <div className="container">
+    <div className="container" style={{fontFamily: "nunito"}}>
       <h2>Portfolio</h2>
       <Row>
         <Col

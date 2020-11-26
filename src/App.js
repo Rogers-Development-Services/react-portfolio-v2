@@ -12,7 +12,8 @@ import { Navbar, NavItem, Icon, Footer } from 'react-materialize';
 
 const styles = {
   footerStyle: {
-    backgroundColor: "#38b09a"
+    backgroundColor: "#38b09a",
+    fontFamily: "nunito"
   },
   navImageStyle: {
     width: "100%",
@@ -35,7 +36,7 @@ function App() {
         <Navbar
           alignLinks="right"
           brand={<span className="brand-logo">Rogers Development Services</span>}
-          centerChildren
+
           id="mobile-nav"
           menuIcon={<Icon>menu</Icon>}
           options={{

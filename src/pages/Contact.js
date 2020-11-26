@@ -5,7 +5,9 @@ import { Textarea, Icon, TextInput, Button, Row, Col } from 'react-materialize';
 
 function Contact() {
   return (
-    <div className="container ">
+    <div 
+    className="container"
+    style={{fontFamily: "nunito"}}>
       <h2>Contact Us!</h2>
       <Row>
         <Col
