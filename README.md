@@ -7,23 +7,23 @@
 Here at Rogers Development Services (RDS) we pride ourselves on the excellence of any product you want to market online. Our team commitment is to provide an client with excellent Web Design.
 
 ## Table of Contents
-[Deployed Application](https://github.com/Rogers-Development-Services/User-Directory#deployed-application)
+[Deployed Application](https://github.com/Rogers-Development-Services/react-portfolio-v2#deployed-application)
 
-[Usage](https://github.com/Rogers-Development-Services/User-Directory#usage)
+[Usage](https://github.com/Rogers-Development-Services/react-portfolio-v2#usage)
 
-[Screenshots](https://github.com/Rogers-Development-Services/User-Directory#screenshots)
+[Screenshots](https://github.com/Rogers-Development-Services/react-portfolio-v2#screenshots)
 
-[Future Updates](https://github.com/Rogers-Development-Services/User-Directory#future-updates)
+[Future Updates](https://github.com/Rogers-Development-Services/react-portfolio-v2#future-updates)
 
-[Questions](https://github.com/Rogers-Development-Services/User-Directory#questions)
+[Questions](https://github.com/Rogers-Development-Services/react-portfolio-v2#questions)
 
-[Credits](https://github.com/Rogers-Development-Services/User-Directory#credits)
+[Credits](https://github.com/Rogers-Development-Services/react-portfolio-v2#credits)
 
-[License](https://github.com/Rogers-Development-Services/User-Directory#license)
+[License](https://github.com/Rogers-Development-Services/react-portfolio-v2#license)
 
 ## Deployed Application
 
-Here is the [deployed application](https://rogers-development-services.github.io/react-portfolio/).
+Here is the [deployed application](https://rogers-development-services.github.io/react-portfolio-v2/).
 
 ## Usage 
 
