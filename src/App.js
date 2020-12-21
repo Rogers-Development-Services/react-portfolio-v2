@@ -10,32 +10,29 @@ import Contact from "./pages/Contact";
 import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
 import { Navbar, NavItem, Icon, Footer } from 'react-materialize';
 
-const styles = {
-  footerStyle: {
-    backgroundColor: "#38b09a",
-    fontFamily: "nunito"
-  },
-  navImageStyle: {
-    width: "100%",
-    height: "100%",
-    objectFit: "cover",
-
-  },
-  imageStyle: {
-    width: "100%",
-    height: "100%",
-    objectFit: "cover",
-  }
-};
+// const styles = {
+//   footerStyle: {
+//     backgroundColor: "#38b09a",
+//     fontFamily: "nunito"
+//   }
+// };
 
 function App() {
   return (
     <Router
-    basename={process.env.PUBLIC_URL}>
+      basename={process.env.PUBLIC_URL}>
       <div>
         <Navbar
           alignLinks="right"
-          brand={<span className="brand-logo">Rogers Development Services</span>}
+          brand={<a className="brand-logo" href="/">
+            <img
+              id="navbar-img"
+              className="responsive-img"
+              src="https://user-images.githubusercontent.com/38272211/99867457-77214c80-2b6e-11eb-8c5b-4ba73f7c4c8a.png" 
+              alt="Rogers-Development-Services-Logo"
+            >
+            </img>
+          </a>}
 
           id="mobile-nav"
           menuIcon={<Icon>menu</Icon>}
@@ -51,10 +48,6 @@ function App() {
             preventScrolling: true
           }}
         >
-          {/* <img
-            style={styles.navImageStyle}
-            src="https://user-images.githubusercontent.com/38272211/99867457-77214c80-2b6e-11eb-8c5b-4ba73f7c4c8a.png" alt="Rogers-Development-Services-Logo"></img> */}
-
           <NavItem><Link to="/">About Us</Link></NavItem>
           <NavItem><Link to="/Portfolio">Portfolio</Link></NavItem>
           {/* This is where custom styling and extra tabs would be added to appear within the sidenav */}
@@ -70,7 +63,7 @@ function App() {
         </Switch>
 
         <Footer
-          style={styles.footerStyle}
+          // style={styles.footerStyle}
           copyrights="© 2020 Rogers Development Services"
         >
         </Footer>

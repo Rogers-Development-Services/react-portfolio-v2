@@ -35,7 +35,7 @@
 div#root > div > nav {
   background-color: #21272c;
   padding-left: 1rem;
-  font-family: nunito
+  font-family: nunito, sans-serif;
 };
 
 @keyframes App-logo-spin {
@@ -45,4 +45,14 @@ div#root > div > nav {
   to {
     transform: rotate(360deg);
   }
+}
+
+#navbar-img {
+  height: -webkit-fill-available!important;
+  padding: .15rem;
+}
+
+footer.page-footer {
+  background-color: #38b09a;
+  font-family: nunito, sans-serif;
 }

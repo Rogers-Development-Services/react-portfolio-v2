@@ -40,8 +40,7 @@ const styles = {
     flexWrap: "wrap",
     justifyContent: "center",
     fontSize: "3em",
-    fontFamily: "nunito",
-    fontWeight: "bold"
+    fontFamily: "nunito"
   },
   p1Style: {
     color: "white",
@@ -86,7 +85,7 @@ function AboutUs() {
   return (
     <div>
       <section style={styles.homeImage}>
-        <div>
+        <div className="container">
           <p style={styles.pStyle}>MATTHEW
             <span style={{ color: "#38b09a", marginLeft: "1rem" }}> ROGERS</span>
           </p>
@@ -97,7 +96,7 @@ function AboutUs() {
         </div>
       </section >
 
-      <h2 style={{fontFamily: 'nunito', fontWeight: "bold"}}>About Us</h2>
+      <h2 style={{ fontFamily: 'nunito', fontWeight: "bold" }}>About Us</h2>
       <Row className="container">
         <Col
           className="black-text"
@@ -124,7 +123,7 @@ function AboutUs() {
             hope to create usable, accessible, and beautiful web applications to service whatever my clients might
             need.<br />
             <br />
-            My last career in leadership development taught me that whatever investment I need to make sure it solves a human problem and contributes to growth for the people involved. I strive to apply my learners posture in every developing project I contribute to.You can access my current resume <a href="https://github.com/Rogers-Development-Services/Portfolio/files/5578900/Bootcamp.Resume.pdf" target="_blank" style={styles.aStyles}>here</a>, I'm always open to learning about opportunties. Don't hesitate to reach out to <a href="mailto:matthew.shane.rogers@gmail.com" style={styles.aStyles}><i>matthew.shane.roges@gmail.com</i></a>!
+            My last career in leadership development taught me that whatever investment I need to make sure it solves a human problem and contributes to growth for the people involved. I strive to apply my learners posture in every developing project I contribute to. You can access my current resume <a href="https://github.com/Rogers-Development-Services/Portfolio/files/5578900/Bootcamp.Resume.pdf" target="_blank" style={styles.aStyles}>here</a>, I'm always open to learning about opportunties. Don't hesitate to reach out to <a href="mailto:matthew.shane.rogers@gmail.com" style={styles.aStyles}><i>matthew.shane.roges@gmail.com</i></a>!
             </p>
           <div>
             <Row style={{ display: "flex", justifyContent: "center" }}>
@@ -146,7 +145,7 @@ function AboutUs() {
             style={styles.skillColStyle}
             s={2}
             l={2}>
-            <i style={styles.iStyles} className="devicon-html5-plain-wordmark colored"></i>
+            <a rel="external" href="https://html.spec.whatwg.org/multipage/"><i style={styles.iStyles} className="devicon-html5-plain-wordmark colored"></i></a>
           </Col>
           <Col className="skills-container"
             style={styles.skillColStyle}
