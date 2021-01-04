@@ -18,48 +18,47 @@ function AboutUs() {
         </div>
       </section >
 
-      <h2 style={{ fontFamily: 'nunito', fontWeight: "bold" }}>About Us</h2>
-      <Row className="container">
-        <Col
-          className="black-text"
-          s={12}
-          l={6}
-        >
-          <img
-            className='RDS-logo'
-            src="https://user-images.githubusercontent.com/38272211/99867457-77214c80-2b6e-11eb-8c5b-4ba73f7c4c8a.png" alt="Rogers-Development-Services-Logo"></img>
-        </Col>
-        <Col
-          className="black-text"
-          s={12}
-          l={6}
-        >
-          <p>
-            Welcome to Rogers Development Services! My name is Matthew Shane Rogers and I’m an aspiring Web Developer.
-            I am a native CA and have lived all around this wonderful state for the past thirty years.<br />
-            <br />
-            I’m currently enrolled in UCSD’s Full-Stack Web Development Bootcamp hosted by Trilogy Education Services.
-            My hope is by learning from this course I will be equipped to either transition into a full time
-            Full-Stack Web Developer position in San Diego (or remote) career or to become a freelance web designer. I
-            hope to create usable, accessible, and beautiful web applications to service whatever my clients might
+      <section>
+        <h2>About Us</h2>
+        <Row className="container">
+          <Col
+            className="black-text"
+            s={12}
+            l={6}
+          >
+            <img
+              className='RDS-logo'
+              src="https://user-images.githubusercontent.com/38272211/99867457-77214c80-2b6e-11eb-8c5b-4ba73f7c4c8a.png" alt="Rogers-Development-Services-Logo"></img>
+          </Col>
+          <Col
+            className="black-text"
+            s={12}
+            l={6}
+          >
+            <p>
+              Welcome to Rogers Development Services! My name is Matthew Shane Rogers and I’m an aspiring Web Developer. I am a native CA and have lived all around this wonderful state for the past thirty years.<br />
+              <br />
+            I've been certified by UCSD’s Full-Stack Web Development Bootcamp hosted by Trilogy Education Services.
+            My hope is by learning from this course I will be equipped to either transition into a full time Full-Stack Web Developer position in San Diego (or remote) career or to become a freelance web designer. I hope to create usable, accessible, and beautiful web applications to service whatever my clients might
             need.<br />
-            <br />
-            My last career in leadership development taught me that whatever investment I need to make sure it solves a human problem and contributes to growth for the people involved. I strive to apply my learners posture in every developing project I contribute to. You can access my current resume <a className="about-us-links" href="https://github.com/Rogers-Development-Services/Portfolio/files/5578900/Bootcamp.Resume.pdf" target="_blank">here</a>, I'm always open to learning about opportunties. Don't hesitate to reach out to <a className="about-us-links" href="mailto:matthew.shane.rogers@gmail.com"><i>matthew.shane.roges@gmail.com</i></a>!
+              <br />
+            My last career in leadership development taught me that whatever investment I need to make sure it solves a human problem and contributes to growth for the people involved. I strive to apply my learners posture in every developing project I contribute to. You can access my current resume <a className="about-us-links" rel="external" href="https://github.com/Rogers-Development-Services/Portfolio/files/5578900/Bootcamp.Resume.pdf">here</a>, I'm always open to learning about opportunties. Don't hesitate to reach out to <a className="about-us-links" rel="external" href="mailto:matthew.shane.rogers@gmail.com"><i>matthew.shane.roges@gmail.com</i></a>!
             </p>
-          <div>
-            <Row style={{ display: "flex", justifyContent: "center" }}>
-              <Col>
-                <a className="about-us-links" target="blank" href="https://www.linkedin.com/in/matthewsrogers/" ><i style={{ fontSize: "2rem" }} className="devicon-linkedin-plain"></i></a>
-              </Col>
-              <Col>
-                <a className="about-us-links" target="_blank" href="https://github.com/Rogers-Development-Services"><i style={{ fontSize: "2rem" }} className="devicon-github-plain"></i></a>
-              </Col>
-            </Row>
-          </div>
-        </Col>
-      </Row>
+            <div>
+              <Row className="professional-icons">
+                <Col>
+                  <a className="about-us-links" href="https://www.linkedin.com/in/matthewsrogers/" ><i className="devicon-linkedin-plain"></i></a>
+                </Col>
+                <Col>
+                  <a className="about-us-links" href="https://github.com/Rogers-Development-Services"><i className="devicon-github-plain"></i></a>
+                </Col>
+              </Row>
+            </div>
+          </Col>
+        </Row>
+      </section>
 
-      <section className="container" style={{ marginBottom: "5rem" }}>
+      <section className="container" id="skill-section">
         <h2>Skills</h2>
         <Row>
           <Col className="skills-container"
