@@ -52,6 +52,48 @@ div#root > div > nav {
   padding: .15rem;
 }
 
+.home-image {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background: url('https://www.vasa.org.uk/site-content/uploads/2018/07/web-in-development.jpg') no-repeat center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+.intro-text {
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 3rem;
+  font-family: "nunito";
+}
+
+.intro-text-teal {
+  color: #38b09a;
+  margin-left: 1rem;
+}
+
+.RDS-logo {
+  width: 100%;
+  object-fit: cover;
+}
+
+.about-us-links {
+  color: #38b09a;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  font-size: 3.5rem;
+}
+
 footer.page-footer {
   background-color: #38b09a;
   font-family: nunito, sans-serif;

@@ -3,95 +3,17 @@ import "devicon";
 import "../assets/styles/AboutUs.css";
 import { Row, Col } from 'react-materialize';
 
-const styles = {
-  aStyles: {
-    color: "#38b09a"
-  },
-  iStyles: {
-    fontSize: "3.5rem"
-  },
-  skillColStyle: {
-    display: "flex",
-    flexWrap: "wrap",
-    justifyContent: "center",
-    margin: "auto"
-  },
-  skillRowStyle: {
-    margin: "1.25rem"
-  },
-  textStyle: {
-    fontFamily: "nunito"
-  },
-  footerStyle: {
-    color: "#38b09a"
-  },
-  imageStyle: {
-    width: "100%",
-    height: "100%",
-    objectFit: "cover"
-  },
-  introDivStyle: {
-    display: "flex",
-    justifyContent: "Center"
-  },
-  pStyle: {
-    color: "white",
-    display: "flex",
-    flexWrap: "wrap",
-    justifyContent: "center",
-    fontSize: "3em",
-    fontFamily: "nunito"
-  },
-  p1Style: {
-    color: "white",
-    display: "flex",
-    justifyContent: "center",
-    fontSize: "3em",
-    animation: "tracking-in-expand .7s cubic-bezier(.215,.61,.355,1) both",
-    animationDuration: "0.7s",
-    animationTimingFunction: "cubic-bezier(0.215, 0.61, 0.355, 1)",
-    animationDelay: "3s",
-    animationIterationCount: "1",
-    animationDirection: "normal",
-    animationFillMode: "forwards",
-    animationPlayState: "running",
-    animationName: "tracking-in-expand"
-  },
-  homeImage: {
-    display: "flex",
-    flexWrap: "wrap",
-    justifyContent: "center",
-    alignItems: "center",
-    background: "url('https://www.vasa.org.uk/site-content/uploads/2018/07/web-in-development.jpg')no-repeat center",
-    backgroundSize: "cover",
-    backgroundColor: "rgba(0,0,0,.27)",
-    backgroundBlendMode: "multiply",
-    backgroundAttachment: "fixed",
-    animation: "5s both",
-    animationDuration: "5s",
-    animationTimingFunction: "ease",
-    animationDelay: "0s",
-    animationIterationCount: "1",
-    animationDirection: "normal",
-    animationFillMode: "both",
-    animationPlayState: "running",
-    animationName: "bg-pan-top",
-    height: "100vh",
-    width: "100%"
-  },
-};
-
 function AboutUs() {
   return (
     <div>
-      <section style={styles.homeImage}>
+      <section className="home-image">
         <div className="container">
-          <p style={styles.pStyle}>MATTHEW
-            <span style={{ color: "#38b09a", marginLeft: "1rem" }}> ROGERS</span>
+          <p className="intro-text">MATTHEW
+            <span className="intro-text-teal"> ROGERS</span>
           </p>
-          <p style={styles.pStyle}>
-            <span style={{ color: "#38b09a", marginRight: "1rem" }}>FULL STACK</span>
-             DEVELOPER
+          <p className="intro-text">
+            <span className="intro-text-teal">FULL STACK </span>
+            DEVELOPER
           </p>
         </div>
       </section >
@@ -104,12 +26,11 @@ function AboutUs() {
           l={6}
         >
           <img
-            style={styles.imageStyle}
+            className='RDS-logo'
             src="https://user-images.githubusercontent.com/38272211/99867457-77214c80-2b6e-11eb-8c5b-4ba73f7c4c8a.png" alt="Rogers-Development-Services-Logo"></img>
         </Col>
         <Col
           className="black-text"
-          style={styles.textStyle}
           s={12}
           l={6}
         >
@@ -123,15 +44,15 @@ function AboutUs() {
             hope to create usable, accessible, and beautiful web applications to service whatever my clients might
             need.<br />
             <br />
-            My last career in leadership development taught me that whatever investment I need to make sure it solves a human problem and contributes to growth for the people involved. I strive to apply my learners posture in every developing project I contribute to. You can access my current resume <a href="https://github.com/Rogers-Development-Services/Portfolio/files/5578900/Bootcamp.Resume.pdf" target="_blank" style={styles.aStyles}>here</a>, I'm always open to learning about opportunties. Don't hesitate to reach out to <a href="mailto:matthew.shane.rogers@gmail.com" style={styles.aStyles}><i>matthew.shane.roges@gmail.com</i></a>!
+            My last career in leadership development taught me that whatever investment I need to make sure it solves a human problem and contributes to growth for the people involved. I strive to apply my learners posture in every developing project I contribute to. You can access my current resume <a className="about-us-links" href="https://github.com/Rogers-Development-Services/Portfolio/files/5578900/Bootcamp.Resume.pdf" target="_blank">here</a>, I'm always open to learning about opportunties. Don't hesitate to reach out to <a className="about-us-links" href="mailto:matthew.shane.rogers@gmail.com"><i>matthew.shane.roges@gmail.com</i></a>!
             </p>
           <div>
             <Row style={{ display: "flex", justifyContent: "center" }}>
               <Col>
-                <a target="blank" href="https://www.linkedin.com/in/matthewsrogers/" style={styles.aStyles}><i style={{ fontSize: "2rem" }} className="devicon-linkedin-plain"></i></a>
+                <a className="about-us-links" target="blank" href="https://www.linkedin.com/in/matthewsrogers/" ><i style={{ fontSize: "2rem" }} className="devicon-linkedin-plain"></i></a>
               </Col>
               <Col>
-                <a target="_blank" href="https://github.com/Rogers-Development-Services" style={styles.aStyles}><i style={{ fontSize: "2rem" }} className="devicon-github-plain"></i></a>
+                <a className="about-us-links" target="_blank" href="https://github.com/Rogers-Development-Services"><i style={{ fontSize: "2rem" }} className="devicon-github-plain"></i></a>
               </Col>
             </Row>
           </div>
@@ -140,80 +61,84 @@ function AboutUs() {
 
       <section className="container" style={{ marginBottom: "5rem" }}>
         <h2>Skills</h2>
-        <Row style={styles.skillRowStyle}>
+        <Row>
           <Col className="skills-container"
-            style={styles.skillColStyle}
+
             s={2}
             l={2}>
-            <a rel="external" href="https://html.spec.whatwg.org/multipage/"><i style={styles.iStyles} className="devicon-html5-plain-wordmark colored"></i></a>
+            <a rel="external" href="https://html.spec.whatwg.org/multipage/"><i className="devicon-html5-plain-wordmark colored"></i></a>
           </Col>
           <Col className="skills-container"
-            style={styles.skillColStyle}
+
             s={2}
             l={2}>
-            <i style={styles.iStyles} className="devicon-css3-plain-wordmark colored"></i>
+            <a rel="external" href="https://www.w3.org/Style/CSS/Overview.en.html"><i className="devicon-css3-plain-wordmark colored"></i></a>
           </Col>
           <Col className="skills-container"
-            style={styles.skillColStyle}
+
             s={2}
             l={2}>
-            <i style={styles.iStyles} className="devicon-javascript-plain colored"></i>
+            <a rel="external" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><i className="devicon-javascript-plain colored"></i></a>
+
           </Col>
           <Col className="skills-container"
-            style={styles.skillColStyle}
+
             s={2}
             l={2}>
-            <i style={styles.iStyles} className="devicon-jquery-plain colored"></i>
+            <a rel="external" href="https://jquery.com/"><i className="devicon-jquery-plain colored"></i></a>
+
           </Col>
           <Col className="skills-container"
-            style={styles.skillColStyle}
+
             s={2}
             l={2}>
-            <i style={styles.iStyles} className="devicon-nodejs-plain colored"></i>
+            <a rel="external" href="https://nodejs.org/en/"><i className="devicon-nodejs-plain colored"></i></a>
+
           </Col>
           <Col className="skills-container"
-            style={styles.skillColStyle}
+
             s={2}
             l={2}>
-            <i style={styles.iStyles} className="devicon-react-plain colored"></i>
+            <a rel="external" href="https://reactjs.org/"><i className="devicon-react-plain colored"></i></a>
+
           </Col>
         </Row>
-        <Row style={styles.skillRowStyle}>
+        <Row>
           <Col className="skills-container"
-            style={styles.skillColStyle}
+
             s={2}
             l={2}>
-            <i style={styles.iStyles} className="devicon-express-original colored"></i>
+            <a rel="external" href="https://expressjs.com/"><i className="devicon-express-original colored"></i></a>
           </Col>
           <Col className="skills-container"
-            style={styles.skillColStyle}
+
             s={2}
             l={2}>
-            <i style={styles.iStyles} className="devicon-mysql-plain colored"></i>
+            <a rel="external" href="https://www.mysql.com/"><i className="devicon-mysql-plain colored"></i></a>
           </Col>
           <Col className="skills-container"
-            style={styles.skillColStyle}
+
             s={2}
             l={2}>
-            <i style={styles.iStyles} className="devicon-sequelize-plain colored"></i>
+            <a rel="external" href="https://sequelize.org/"><i className="devicon-sequelize-plain colored"></i></a>
           </Col>
           <Col className="skills-container"
-            style={styles.skillColStyle}
+
             s={2}
             l={2}>
-            <i style={styles.iStyles} className="devicon-mongodb-plain colored"></i>
+            <a rel="external" href="https://www.mongodb.com/"><i className="devicon-mongodb-plain colored"></i></a>
           </Col>
           <Col className="skills-container"
-            style={styles.skillColStyle}
+
             s={2}
             l={2}>
-            <i style={styles.iStyles} className="devicon-git-plain colored"></i>
+            <a rel="external" href="https://git-scm.com/"><i className="devicon-git-plain colored"></i></a>
           </Col>
           <Col className="skills-container"
-            style={styles.skillColStyle}
+
             s={2}
             l={2}>
-            <i style={styles.iStyles} className="devicon-github-plain colored"></i>
+            <a rel="external" href="https://github.com/"><i className="devicon-github-plain colored"></i></a>
           </Col>
         </Row>
       </section>

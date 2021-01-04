@@ -14,7 +14,6 @@ function Contact() {
           style={{ display: "flex", justifyContent: "center", alignItems: "center", flexDirection: "column" }}
           s={12} l={12}>
           <p>We would <em>love</em> to hear from you! </p>
-          <p>Please use the <strong><em>Contact Form</em></strong> to send us a message.</p>
         </Col>
       </Row>
 
@@ -62,7 +61,7 @@ function Contact() {
                   name="message"
                   id="client-message"
                   label="Message"
-                  placeholder="Tell us what's on your mind..."
+                  placeholder="How can we help you?"
                   s={12} l={12}
                 />
               </Col>
