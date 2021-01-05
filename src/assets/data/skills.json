@@ -1,0 +1,74 @@
+[
+    {
+        "id": 0,
+        "name": "HTML5",
+        "link": "https://html.spec.whatwg.org/multipage/",
+        "devcon": "devicon-html5-plain-wordmark colored"
+    },
+    {
+        "id": 1,
+        "name": "CSS3",
+        "link": "https://www.w3.org/Style/CSS/Overview.en.html",
+        "devcon": "devicon-css3-plain-wordmark colored"
+    },
+    {
+        "id": 2,
+        "name": "JavaScript",
+        "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+        "devcon": "devicon-javascript-plain colored"
+    },
+    {
+        "id": 3,
+        "name": "jQuery",
+        "link": "https://jquery.com/",
+        "devcon": "devicon-jquery-plain colored"
+    },
+    {
+        "id": 4,
+        "name": "NodeJS",
+        "link": "https://nodejs.org/en/",
+        "devcon": "devicon-nodejs-plain colored"
+    },
+    {
+        "id": 5,
+        "name": "ReactJS",
+        "link": "https://reactjs.org/",
+        "devcon": "devicon-react-plain colored"
+    },
+    {
+        "id": 6,
+        "name": "ExpressJS",
+        "link": "https://expressjs.com/",
+        "devcon": "devicon-express-original colored"
+    },
+    {
+        "id": 7,
+        "name": "MYSQL",
+        "link": "https://www.mysql.com/",
+        "devcon": "devicon-mysql-plain colored"
+    },
+    {
+        "id": 8,
+        "name": "Sequelize",
+        "link": "https://sequelize.org/",
+        "devcon": "devicon-sequelize-plain colored"
+    },
+    {
+        "id": 9,
+        "name": "MongoDB",
+        "link": "https://www.mongodb.com/",
+        "devcon": "devicon-mongodb-plain colored"
+    },
+    {
+        "id": 10,
+        "name": "Git",
+        "link": "https://git-scm.com/",
+        "devcon": "devicon-git-plain colored"
+    },
+    {
+        "id": 11,
+        "name": "GitHub",
+        "link": "https://github.com/",
+        "devcon": "devicon-github-plain colored"
+    }
+]

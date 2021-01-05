@@ -3,6 +3,8 @@ import "devicon";
 import "../assets/styles/AboutUs.css";
 import { Row, Col } from 'react-materialize';
 
+let skills = require('../assets/data/skills.json');
+
 function AboutUs() {
   return (
     <div>
@@ -60,85 +62,17 @@ function AboutUs() {
 
       <section className="container" id="skill-section">
         <h2>Skills</h2>
-        <Row>
-          <Col className="skills-container"
-
-            s={2}
-            l={2}>
-            <a rel="external" href="https://html.spec.whatwg.org/multipage/"><i className="devicon-html5-plain-wordmark colored"></i></a>
-          </Col>
-          <Col className="skills-container"
-
-            s={2}
-            l={2}>
-            <a rel="external" href="https://www.w3.org/Style/CSS/Overview.en.html"><i className="devicon-css3-plain-wordmark colored"></i></a>
-          </Col>
-          <Col className="skills-container"
-
-            s={2}
-            l={2}>
-            <a rel="external" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><i className="devicon-javascript-plain colored"></i></a>
-
-          </Col>
-          <Col className="skills-container"
-
-            s={2}
-            l={2}>
-            <a rel="external" href="https://jquery.com/"><i className="devicon-jquery-plain colored"></i></a>
-
-          </Col>
-          <Col className="skills-container"
-
-            s={2}
-            l={2}>
-            <a rel="external" href="https://nodejs.org/en/"><i className="devicon-nodejs-plain colored"></i></a>
-
-          </Col>
-          <Col className="skills-container"
-
-            s={2}
-            l={2}>
-            <a rel="external" href="https://reactjs.org/"><i className="devicon-react-plain colored"></i></a>
-
-          </Col>
-        </Row>
-        <Row>
-          <Col className="skills-container"
-
-            s={2}
-            l={2}>
-            <a rel="external" href="https://expressjs.com/"><i className="devicon-express-original colored"></i></a>
-          </Col>
-          <Col className="skills-container"
-
-            s={2}
-            l={2}>
-            <a rel="external" href="https://www.mysql.com/"><i className="devicon-mysql-plain colored"></i></a>
-          </Col>
-          <Col className="skills-container"
-
-            s={2}
-            l={2}>
-            <a rel="external" href="https://sequelize.org/"><i className="devicon-sequelize-plain colored"></i></a>
-          </Col>
-          <Col className="skills-container"
-
-            s={2}
-            l={2}>
-            <a rel="external" href="https://www.mongodb.com/"><i className="devicon-mongodb-plain colored"></i></a>
-          </Col>
-          <Col className="skills-container"
-
-            s={2}
-            l={2}>
-            <a rel="external" href="https://git-scm.com/"><i className="devicon-git-plain colored"></i></a>
-          </Col>
-          <Col className="skills-container"
-
-            s={2}
-            l={2}>
-            <a rel="external" href="https://github.com/"><i className="devicon-github-plain colored"></i></a>
-          </Col>
+        <Row
+          children={
+            [
+              skills.map(data =>
+                <Col key={data.id} className="skills-container" s={2} m={2} l={2}>
+                  <a rel="external" href={data.link}>
+                    <i className={data.devcon}></i>
+                  </a>
+                </Col>)
+            ]
+          }>
         </Row>
       </section>
     </div>
