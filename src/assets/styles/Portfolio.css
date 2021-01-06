@@ -1,4 +1,4 @@
-div#root > div > div > h2 {
+div#root > div > section.portfolio-projects > div.container > h2 {
     color: #38b09a;
     display: flex;
     justify-content: center;
@@ -6,3 +6,7 @@ div#root > div > div > h2 {
     font-family: nunito;
     font-weight: bold;
 };
+
+div#root > div > section.portfolio-projects > div.container > div.row > div.col.s12.m6.l6.projects-container > div.small.card > div.card-image.waves-effect.waves-block.waves-light > img.activator {
+    background-color: #38b09a;
+}

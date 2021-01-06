@@ -97,7 +97,7 @@ div#root > div > nav {
   margin-bottom: 5rem;
 }
 
-.skills-container {
+.skills-container .projects-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -108,4 +108,21 @@ div#root > div > nav {
 footer.page-footer {
   background-color: #38b09a;
   font-family: nunito, sans-serif;
+}
+
+.project-links {
+  color: white;
+}
+
+.project-buttons {
+  margin: 1rem;
+}
+
+.portfolio-projects {
+  font-family: nunito, sans-serif;
+  margin-bottom: 5rem;
+}
+
+.project-cards {
+  height: 100%
 }

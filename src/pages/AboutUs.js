@@ -26,6 +26,7 @@ function AboutUs() {
           <Col
             className="black-text"
             s={12}
+            m={6}
             l={6}
           >
             <img
