@@ -67,10 +67,16 @@ function AboutUs() {
           children={
             [
               skills.map(data =>
-                <Col key={data.id} className="skills-container" s={2} m={2} l={2}>
+                <Col 
+                  key={data.id} 
+                  className="skills-container" 
+                  s={2} m={2} l={2}>
                   <a rel="external" href={data.link}>
                     <i className={data.devcon}></i>
                   </a>
+                  <p className="skill-names">
+                    {data.name}
+                  </p>
                 </Col>)
             ]
           }>

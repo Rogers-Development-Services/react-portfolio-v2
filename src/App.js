@@ -3,19 +3,11 @@ import './App.css';
 import "materialize-css";
 import "devicon"
 // import myNavbar from "./components/SideNavBar"
-import HomePic from "./components/HomePic"
 import AboutUs from "./pages/AboutUs";
 import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
 import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
 import { Navbar, NavItem, Icon, Footer } from 'react-materialize';
-
-// const styles = {
-//   footerStyle: {
-//     backgroundColor: "#38b09a",
-//     fontFamily: "nunito"
-//   }
-// };
 
 function App() {
   return (
@@ -63,7 +55,6 @@ function App() {
         </Switch>
 
         <Footer
-          // style={styles.footerStyle}
           copyrights="© 2020 Rogers Development Services"
         >
         </Footer>
