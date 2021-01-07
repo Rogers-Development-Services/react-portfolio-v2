@@ -5,8 +5,9 @@ div#root > div > div > h2 {
     padding: 1.5rem;
 };
 
-.thankyou_message {
+.thankyou-message {
     display: none;
+    text-align: center;
 };
 
 .input {
@@ -21,6 +22,15 @@ div#root > div > div > h2 {
     display: none;
 }; */
 
-/* .submit-button {
+.submit-button {
     margin: 1rem;
-}; */
+  }
+
+.submit-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 1rem;
+};
+

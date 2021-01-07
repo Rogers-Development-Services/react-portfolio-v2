@@ -73,11 +73,13 @@ div#root > div > nav {
   flex-wrap: wrap;
   justify-content: center;
   font-size: 3rem;
+  font-weight: bold;
   font-family: "nunito";
 }
 
 .intro-text-teal {
   color: #38b09a;
+  font-weight: bold;
   margin-left: 1rem;
   margin-right: 1rem;
 }
@@ -134,4 +136,11 @@ footer.page-footer {
 
 .project-cards {
   height: 100%
+}
+
+.contact-intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
