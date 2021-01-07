@@ -95,6 +95,7 @@ function Contact() {
                   node="button"
                   type="submit"
                   waves="light"
+                  disabled="true"
                 >
                   Submit<Icon right>send</Icon>
                 </Button>
