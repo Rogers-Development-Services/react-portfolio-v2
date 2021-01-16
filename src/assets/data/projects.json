@@ -2,7 +2,7 @@
     {
         "id": 0,
         "name": "Nomad",
-        "image": "https://wilderness-survival-app.herokuapp.com/assets/mountain.jpg",
+        "image": "https://wilderness-survival-app.s3-us-west-1.amazonaws.com/images/mountain.jpg",
         "description": "​This PWA is intended to guide users in survival situations or the avid outdoor enthusiast. The Heroku hosted application will assist users in finding edible plants, list survival guides, and the ability to record notes for future endeavors.​",
         "link": "https://cobra-arcade.herokuapp.com/",
         "repo": "https://github.com/Rogers-Development-Services/Wilderness-Survival-App",
@@ -20,7 +20,7 @@
     {
         "id": 1,
         "name": "Cobra Arcade",
-        "image": "https://user-images.githubusercontent.com/38272211/96189272-08106280-0ef5-11eb-924b-ef5f3b265f28.JPG",
+        "image": "https://rds-portfolio.s3-us-west-1.amazonaws.com/Arcade.JPG",
         "description": "​Welcome to Cobra Arcade! Our hope is that you’ll be able to take advantage of this website to take a break from your busy lives and rest your brain while having some fun! Our team is so excited for you to enjoy a nostalgic trip down game history to play classic titles such as Snake, Flappy Bird, and Pong. See if you can make the top score chart!​This Heroku DB application will allow the user to record their highscores of our three offered games with Sequelize, Node.JS, Express, Express Handlebars, and Express Sessions and canvas.",
         "link": "https://cobra-arcade.herokuapp.com/",
         "repo": "https://github.com/Rogers-Development-Services/project-2.github.io",
@@ -64,16 +64,14 @@
     },
     {
         "id": 4,
-        "name": "Fitness Tracker",
-        "image": "https://user-images.githubusercontent.com/38272211/97612929-4453c080-19d5-11eb-8474-c7a4891e46b7.JPG",
-        "description": "​This Heroku application wil create a workout tracker with MongoDB, Node.JS, Express, and Mongoose. (It is designed via the MVC design pattern)",
-        "link": "https://secret-spire-56494.herokuapp.com/?id=5fab64c73561550017cb1b57",
-        "repo": "https://github.com/Rogers-Development-Services/WorkoutTracker",
+        "name": "User Directory",
+        "image": "https://rds-portfolio.s3-us-west-1.amazonaws.com/Directory.png",
+        "description": "The user will be able to view an entire employee directory at once so that they have quick access to their information.",
+        "link": "https://rogers-development-services.github.io/User-Directory/",
+        "repo": "https://github.com/Rogers-Development-Services/User-Directory/tree/master/user-directory",
         "badges": [
             "JavaScript/HTML/CSS",
-            "React",
-            "Local Forage",
-            "NodeJS"
+            "React"
         ]
     },
     {

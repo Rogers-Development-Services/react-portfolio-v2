@@ -37,7 +37,7 @@ div#root {
 
 /* Navbar Styling */
 div#root > div > nav {
-  background-color: #21272c;
+  background-color: #21272c!important;
   padding-left: 1rem;
   font-family: nunito, sans-serif;
 };
