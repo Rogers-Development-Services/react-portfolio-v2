@@ -43,7 +43,7 @@ function AboutUs() {
               <br />
             I've graduated UCSD’s Full-Stack Web Development Bootcamp hosted by Trilogy Education Services. I strive to create usable, accessible, and beautiful web applications to service whatever my clients might need.<br />
               <br />
-            My last career in leadership development taught me that whatever investment I need to make sure it solves a human problem and contributes to growth for the people involved. I strive to apply my learners posture in every developing project I contribute to. You can access my current resume <strong><a className="about-us-links" rel="external" href="https://github.com/Rogers-Development-Services/Portfolio/files/5578900/Bootcamp.Resume.pdf">HERE</a></strong>, I'm always open to learning about opportunties. Don't hesitate to reach out to <a className="about-us-links" rel="external" href="mailto:matthew.shane.rogers@gmail.com"><i>matthew.shane.roges@gmail.com</i></a>!
+            My last career in leadership development taught me that whatever investment I need to make sure it solves a human problem and contributes to growth for the people involved. I strive to apply my learners posture in every developing project I contribute to. You can access my current resume <strong><a className="about-us-links" rel="external" href="https://rds-portfolio.s3-us-west-1.amazonaws.com/Matthew+Rogers+Resume+January+2021.pdf">HERE</a></strong>, I'm always open to learning about opportunties. Don't hesitate to reach out to <a className="about-us-links" rel="external" href="mailto:matthew.shane.rogers@gmail.com"><i>matthew.shane.roges@gmail.com</i></a>!
             </p>
             <div>
               <Row className="professional-icons">
