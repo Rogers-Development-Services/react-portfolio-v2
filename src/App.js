@@ -7,7 +7,7 @@ import AboutUs from "./pages/AboutUs";
 import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
 import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
-import { Navbar, NavItem, Icon, Footer } from 'react-materialize';
+import { Navbar, Icon, Footer } from 'react-materialize';
 
 function App() {
   return (
@@ -15,6 +15,7 @@ function App() {
       basename={process.env.PUBLIC_URL}>
       <div>
         <Navbar
+          style={{backgroundColor: "#21272c"}}
           alignLinks="right"
           brand={<a className="brand-logo" href="/">
             <img
