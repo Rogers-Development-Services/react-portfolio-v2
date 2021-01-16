@@ -5,7 +5,17 @@
         "image": "https://wilderness-survival-app.herokuapp.com/assets/mountain.jpg",
         "description": "​This PWA is intended to guide users in survival situations or the avid outdoor enthusiast. The Heroku hosted application will assist users in finding edible plants, list survival guides, and the ability to record notes for future endeavors.​",
         "link": "https://cobra-arcade.herokuapp.com/",
-        "repo": "https://github.com/Rogers-Development-Services/Wilderness-Survival-App"
+        "repo": "https://github.com/Rogers-Development-Services/Wilderness-Survival-App",
+        "badges": [
+            "JavaScript/HTML/CSS",
+            "React",
+            "React-Materialize",
+            "Express",
+            "MongoDB",
+            "Mongoose",
+            "Local Forage"
+        ]
+        
     },
     {
         "id": 1,
@@ -13,7 +23,16 @@
         "image": "https://user-images.githubusercontent.com/38272211/96189272-08106280-0ef5-11eb-924b-ef5f3b265f28.JPG",
         "description": "​Welcome to Cobra Arcade! Our hope is that you’ll be able to take advantage of this website to take a break from your busy lives and rest your brain while having some fun! Our team is so excited for you to enjoy a nostalgic trip down game history to play classic titles such as Snake, Flappy Bird, and Pong. See if you can make the top score chart!​This Heroku DB application will allow the user to record their highscores of our three offered games with Sequelize, Node.JS, Express, Express Handlebars, and Express Sessions and canvas.",
         "link": "https://cobra-arcade.herokuapp.com/",
-        "repo": "https://github.com/Rogers-Development-Services/project-2.github.io"
+        "repo": "https://github.com/Rogers-Development-Services/project-2.github.io",
+        "badges": [
+            "JavaScript/HTML/CSS",
+            "Express",
+            "Express-Handlebars",
+            "Express-Sessions",
+            "MYSQL",
+            "Sequelize",
+            "Canvas"
+        ]
     },
     {
         "id": 2,
@@ -21,7 +40,13 @@
         "image": "https://raw.githubusercontent.com/aaronkplatt/localCoffeeShops.github.io/master/Assets/Images/Deployed%20Application.JPG",
         "description": "​This application will generate the locations of nearby coffee shops, relative to a city search, and the current weather conditions for the city.",
         "link": "https://github.com/Rogers-Development-Services/localCoffeeShops.github.io",
-        "repo": "https://aaronkplatt.github.io/localCoffeeShops.github.io/"
+        "repo": "https://aaronkplatt.github.io/localCoffeeShops.github.io/",
+        "badges": [
+            "JavaScript/HTML/CSS",
+            "Google-API",
+            "Materialize-CSS",
+            "NodeJS"
+        ]
     },
     {
         "id": 3,
@@ -29,7 +54,13 @@
         "image": "https://www.thespruceeats.com/thmb/LDrkRByRnQInfZF25HyLYSJ0Iyg=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/garlic-burger-patties-333503-hero-01-e4df660ff27b4e5194fdff6d703a4f83.jpg",
         "description": "​This Heroku DB application wil create a burger logger with MySQL, Node, Express, Handlebars and a homemade ORM (yum!). It is designed via the MVC design pattern.",
         "link": "https://nameless-mountain-99722.herokuapp.com/",
-        "repo": "https://github.com/Rogers-Development-Services/Eat-Da-Burger"
+        "repo": "https://github.com/Rogers-Development-Services/Eat-Da-Burger",
+        "badges": [
+            "JavaScript/HTML/CSS",
+            "Express",
+            "Express-Handlebars",
+            "MYSQL"
+        ]
     },
     {
         "id": 4,
@@ -37,7 +68,13 @@
         "image": "https://user-images.githubusercontent.com/38272211/97612929-4453c080-19d5-11eb-8474-c7a4891e46b7.JPG",
         "description": "​This Heroku application wil create a workout tracker with MongoDB, Node.JS, Express, and Mongoose. (It is designed via the MVC design pattern)",
         "link": "https://secret-spire-56494.herokuapp.com/?id=5fab64c73561550017cb1b57",
-        "repo": "https://github.com/Rogers-Development-Services/WorkoutTracker"
+        "repo": "https://github.com/Rogers-Development-Services/WorkoutTracker",
+        "badges": [
+            "JavaScript/HTML/CSS",
+            "React",
+            "Local Forage",
+            "NodeJS"
+        ]
     },
     {
         "id": 5,
@@ -45,7 +82,15 @@
         "image": "https://user-images.githubusercontent.com/38272211/98400184-76d66c80-2018-11eb-920b-12b628b25c20.JPG",
         "description": "​In this PWA users will be able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online.",
         "link": "https://mighty-reaches-52293.herokuapp.com/",
-        "repo": "https://github.com/Rogers-Development-Services/PWA-Budget-Tracker"
+        "repo": "https://github.com/Rogers-Development-Services/PWA-Budget-Tracker",
+        "badges": [
+            "JavaScript/HTML/CSS",
+            "Express",
+            "MongoDB",
+            "Mongoose",
+            "IndexedDB",
+            "NodeJS"
+        ]
     },
     {
         "id": 6,
@@ -53,14 +98,21 @@
         "image": "https://user-images.githubusercontent.com/38272211/103713067-317ae080-4f70-11eb-81f5-15b76553189a.JPG",
         "description": "This is the page you're currently browsing made with React and React-Materialize",
         "link": "https://rogers-development-services.github.io/react-portfolio-v2/",
-        "repo": "https://github.com/Rogers-Development-Services/react-portfolio-v2"
+        "repo": "https://github.com/Rogers-Development-Services/react-portfolio-v2",
+        "badges": [
+            "JavaScript/HTML/CSS",
+            "React",
+            "React-Materialize"
+        ]
     },
     {
         "id": 7,
         "name": "4C Buisness",
         "image": "https://user-images.githubusercontent.com/38272211/100006964-297c2e00-2d80-11eb-9ff8-eefd3e592ce6.JPG",
         "description": "This WordPress page will serve as a single page application for 4CBuisness. Specifically, it serves to communicate values, when events are coming up, and the ability to connect with the business.",
-        "link": "https://4cbusiness.com/"
+        "link": "https://4cbusiness.com/",
+        "badges": [
+            "WordPress"
+        ]
     }
-
 ]

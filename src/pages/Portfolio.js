@@ -1,8 +1,8 @@
 import React from "react";
 import "../assets/styles/Portfolio.css";
-import { Row, Col, Card, Icon, CardTitle, Button } from 'react-materialize';
+import { Row, Col, Card, Icon, CardTitle, Button, Badge } from 'react-materialize';
 
-let projects = require('../assets/data/projects.json');
+const projects = require('../assets/data/projects.json');
 
 function Portfolio() {
   return (
@@ -13,21 +13,21 @@ function Portfolio() {
         <Row
           children={
             [
-              projects.map(data =>
-                <Col key={data.id} className="projects-container" s={12} m={6} l={6}>
+              projects.map(project =>
+                <Col key={project.id} className="projects-container" s={12} m={6} l={6}>
                   <Card
-                    className="medium project-cards"
-                    title={data.name}
+                    className="large project-cards"
+                    title={project.name}
                     header={
                       <CardTitle
-                        image={data.image}
+                        image={project.image}
                         reveal waves="light"
                       />
                     }
                     closeIcon={<Icon>close</Icon>}
                     revealIcon={<Icon>more_horiz</Icon>}
                     reveal={
-                      <p>​{data.description}
+                      <p>​{project.description}
                         <br></br>
                         <Button
                           className="project-buttons"
@@ -38,18 +38,43 @@ function Portfolio() {
                             className="project-links"
                             waves="light"
                             rel="external"
-                            href={data.link}
+                            href={project.link}
                           >
                             Demo
                         </a>
                         </Button>
                       </p>}
                   >
-                    <p>
-                      <a rel="external" href={data.repo}>
-                        Git Hub Repo
-                    </a>
-                    </p>
+                    <Row>
+                      <Col>
+                        <p>
+                          <a className="repos" rel="external" href={project.repo}>
+                            Git Hub Repo
+                          </a>
+                          <br></br>
+                        </p>
+                      </Col>
+                    </Row>
+
+                    <Row>
+                      <Col className="badges"
+                        children={
+                          [
+                            project.badges.map((badge, index) =>
+                              <Badge
+                                key={index}
+                                className="badge"
+                                newIcon
+                                caption={badge}
+                              >
+                              </Badge>
+                            )
+                          ]
+                        }
+                      >
+                      </Col>
+                    </Row>
+
                   </Card>
                 </Col>)
             ]

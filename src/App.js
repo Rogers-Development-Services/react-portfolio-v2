@@ -6,7 +6,7 @@ import "devicon"
 import AboutUs from "./pages/AboutUs";
 import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
-import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { Navbar, NavItem, Icon, Footer } from 'react-materialize';
 
 function App() {
@@ -40,10 +40,10 @@ function App() {
             preventScrolling: true
           }}
         >
-          <NavItem><Link to="/">About Us</Link></NavItem>
-          <NavItem><Link to="/Portfolio">Portfolio</Link></NavItem>
+          <NavItem href="/">About Us</NavItem>
+          <NavItem href="/Portfolio">Portfolio</NavItem>
           {/* This is where custom styling and extra tabs would be added to appear within the sidenav */}
-          <NavItem><Link to="/Contact">Contact</Link></NavItem>
+          <NavItem href="/Contact">Contact</NavItem>
         </Navbar>
 
         {/* What is the difference between exact path and switch/Router and just Router? */}

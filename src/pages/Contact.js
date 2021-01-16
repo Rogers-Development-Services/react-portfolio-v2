@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import "../assets/styles/Contact.css";
 import submitForm from "../utils/form-submission-handler";
 import { Textarea, Icon, TextInput, Button, Row, Col } from 'react-materialize';
@@ -23,7 +23,16 @@ function Contact() {
             We would <em>love</em> to hear from you!
           </p>
           <p>
-            Connect with us with the form below, or at <a className="about-us-links" href="tel:9169524662">916-952-4662</a> &#38; <a className="about-us-links" href="mailto:matthew.shane.rogers@gmail.com">matthew.shane.rogers@gmail.com</a>.
+            Connect with us with the form below, or at
+          </p>
+          <p>
+            <a className="about-us-links" href="tel:9169524662">916-952-4662</a>
+          </p>
+          <p>
+            OR
+          </p>
+          <p>
+            <a className="about-us-links" href="mailto:matthew.shane.rogers@gmail.com">matthew.shane.rogers@gmail.com</a>.
           </p>
         </Col>
       </Row>
@@ -95,7 +104,7 @@ function Contact() {
                   node="button"
                   type="submit"
                   waves="light"
-                  disabled="true"
+                  disabled={true}
                 >
                   Submit<Icon right>send</Icon>
                 </Button>
@@ -105,7 +114,6 @@ function Contact() {
             <div style={{ display: submit }} className="thankyou-message">
               <h4><em>Thank you</em> for contacting us! We will get back to you soon!</h4>
             </div>
-
           </form>
         </Col>
       </Row>

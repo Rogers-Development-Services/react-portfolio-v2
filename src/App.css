@@ -138,6 +138,23 @@ footer.page-footer {
   height: 100%
 }
 
+.repos {
+  color: #a64254;
+}
+
+.badges {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.badge {
+  color:  #38b09a;
+  box-shadow: 1px 1px 5px #888888;
+  margin-bottom: .5rem;
+}
+
 .contact-intro {
   display: flex;
   justify-content: center;
