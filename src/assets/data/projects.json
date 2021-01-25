@@ -4,7 +4,7 @@
         "name": "Nomad",
         "image": "https://wilderness-survival-app.s3-us-west-1.amazonaws.com/images/mountain.jpg",
         "description": "​This PWA is intended to guide users in survival situations or the avid outdoor enthusiast. The Heroku hosted application will assist users in finding edible plants, list survival guides, and the ability to record notes for future endeavors.​",
-        "link": "https://cobra-arcade.herokuapp.com/",
+        "link": "https://wilderness-survival-app.herokuapp.com/",
         "repo": "https://github.com/Rogers-Development-Services/Wilderness-Survival-App",
         "badges": [
             "JavaScript/HTML/CSS",
