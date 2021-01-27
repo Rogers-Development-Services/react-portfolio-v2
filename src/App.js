@@ -47,8 +47,6 @@ function App() {
           <Link to="/Contact">Contact</Link>
         </Navbar>
 
-        {/* What is the difference between exact path and switch/Router and just Router? */}
-
         <Switch>
           <Route exact path="/" component={AboutUs} />
           <Route path="/Portfolio" component={Portfolio} />
