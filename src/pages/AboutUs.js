@@ -74,6 +74,8 @@ function AboutUs() {
                   </a>
                   <p className="skill-names">
                     {data.name}
+                    <br></br>
+                    {data.duration}
                   </p>
                 </Col>)
             ]

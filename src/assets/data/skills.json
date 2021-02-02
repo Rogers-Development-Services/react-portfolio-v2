@@ -2,18 +2,21 @@
     {
         "id": 0,
         "name": "HTML5",
+        "duration": "2 Years",
         "link": "https://html.spec.whatwg.org/multipage/",
         "devcon": "devicon-html5-plain-wordmark colored"
     },
     {
         "id": 1,
         "name": "CSS3",
+        "duration": "2 Years",
         "link": "https://www.w3.org/Style/CSS/Overview.en.html",
         "devcon": "devicon-css3-plain-wordmark colored"
     },
     {
         "id": 2,
         "name": "JavaScript",
+        "duration": "7 Months",
         "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
         "devcon": "devicon-javascript-plain colored"
     },
@@ -21,53 +24,62 @@
         "id": 3,
         "name": "jQuery",
         "link": "https://jquery.com/",
+        "duration": "7 Months",
         "devcon": "devicon-jquery-plain colored"
     },
     {
         "id": 4,
         "name": "NodeJS",
+        "duration": "7 Months",
         "link": "https://nodejs.org/en/",
         "devcon": "devicon-nodejs-plain colored"
     },
     {
         "id": 5,
         "name": "ReactJS",
+        "duration": "7 Months",
         "link": "https://reactjs.org/",
         "devcon": "devicon-react-plain colored"
     },
     {
         "id": 6,
         "name": "ExpressJS",
+        "duration": "7 Months",
         "link": "https://expressjs.com/",
         "devcon": "devicon-express-original colored"
     },
     {
         "id": 7,
         "name": "MYSQL",
+        "duration": "7 Months",
         "link": "https://www.mysql.com/",
         "devcon": "devicon-mysql-plain colored"
     },
     {
         "id": 8,
         "name": "Sequelize",
+        "duration": "7 Months",
         "link": "https://sequelize.org/",
         "devcon": "devicon-sequelize-plain colored"
     },
     {
         "id": 9,
         "name": "MongoDB",
+        "duration": "7 Months",
         "link": "https://www.mongodb.com/",
         "devcon": "devicon-mongodb-plain colored"
     },
     {
         "id": 10,
         "name": "Git",
+        "duration": "7 Months",
         "link": "https://git-scm.com/",
         "devcon": "devicon-git-plain colored"
     },
     {
         "id": 11,
         "name": "GitHub",
+        "duration": "7 Months",
         "link": "https://github.com/",
         "devcon": "devicon-github-plain colored"
     }

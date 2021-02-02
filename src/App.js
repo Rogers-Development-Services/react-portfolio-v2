@@ -15,18 +15,12 @@ function App() {
       basename={process.env.PUBLIC_URL}>
       <div>
         <Navbar
-          style={{backgroundColor: "#21272c"}}
+          style={{ backgroundColor: "#21272c" }}
           alignLinks="right"
           brand={<a className="brand-logo" href="/">
-            <img
-              id="navbar-img"
-              className="responsive-img"
-              src="https://user-images.githubusercontent.com/38272211/99867457-77214c80-2b6e-11eb-8c5b-4ba73f7c4c8a.png" 
-              alt="Rogers-Development-Services-Logo"
-            >
-            </img>
+            RDS
           </a>}
-
+          centerChildren
           id="mobile-nav"
           menuIcon={<Icon>menu</Icon>}
           options={{
