@@ -17,7 +17,7 @@ function App() {
         <Navbar
           style={{ backgroundColor: "#21272c" }}
           alignLinks="right"
-          brand={<a className="brand-logo" href="/">
+          brand={<a className="brand-logo" href="/react-portfolio-v2">
             RDS
           </a>}
           centerChildren
